@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11EDE3C61BA8ADF900106A4D /* RNBeacons.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 11EDE3C51BA8ADF900106A4D /* RNBeacons.h */; };
+		11EDE3C81BA8ADF900106A4D /* RNBeacons.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EDE3C71BA8ADF900106A4D /* RNBeacons.m */; };
+		11EDE3CE1BA8ADF900106A4D /* libRNBeacons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11EDE3C21BA8ADF900106A4D /* libRNBeacons.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11EDE3CF1BA8ADF900106A4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11EDE3BA1BA8ADF900106A4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11EDE3C11BA8ADF900106A4D;
+			remoteInfo = RNBeacons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		11EDE3C01BA8ADF900106A4D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				11EDE3C61BA8ADF900106A4D /* RNBeacons.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		11EDE3C21BA8ADF900106A4D /* libRNBeacons.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNBeacons.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		11EDE3C51BA8ADF900106A4D /* RNBeacons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNBeacons.h; sourceTree = "<group>"; };
+		11EDE3C71BA8ADF900106A4D /* RNBeacons.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNBeacons.m; sourceTree = "<group>"; };
+		11EDE3CD1BA8ADF900106A4D /* RNBeaconsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNBeaconsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11EDE3D31BA8ADF900106A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11EDE3BF1BA8ADF900106A4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EDE3CA1BA8ADF900106A4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11EDE3CE1BA8ADF900106A4D /* libRNBeacons.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11EDE3B91BA8ADF900106A4D = {
+			isa = PBXGroup;
+			children = (
+				11EDE3C41BA8ADF900106A4D /* RNBeacons */,
+				11EDE3D11BA8ADF900106A4D /* RNBeaconsTests */,
+				11EDE3C31BA8ADF900106A4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11EDE3C31BA8ADF900106A4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11EDE3C21BA8ADF900106A4D /* libRNBeacons.a */,
+				11EDE3CD1BA8ADF900106A4D /* RNBeaconsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11EDE3C41BA8ADF900106A4D /* RNBeacons */ = {
+			isa = PBXGroup;
+			children = (
+				11EDE3C51BA8ADF900106A4D /* RNBeacons.h */,
+				11EDE3C71BA8ADF900106A4D /* RNBeacons.m */,
+			);
+			path = RNBeacons;
+			sourceTree = "<group>";
+		};
+		11EDE3D11BA8ADF900106A4D /* RNBeaconsTests */ = {
+			isa = PBXGroup;
+			children = (
+				11EDE3D21BA8ADF900106A4D /* Supporting Files */,
+			);
+			path = RNBeaconsTests;
+			sourceTree = "<group>";
+		};
+		11EDE3D21BA8ADF900106A4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11EDE3D31BA8ADF900106A4D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11EDE3C11BA8ADF900106A4D /* RNBeacons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11EDE3D61BA8ADF900106A4D /* Build configuration list for PBXNativeTarget "RNBeacons" */;
+			buildPhases = (
+				11EDE3BE1BA8ADF900106A4D /* Sources */,
+				11EDE3BF1BA8ADF900106A4D /* Frameworks */,
+				11EDE3C01BA8ADF900106A4D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNBeacons;
+			productName = RNBeacons;
+			productReference = 11EDE3C21BA8ADF900106A4D /* libRNBeacons.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		11EDE3CC1BA8ADF900106A4D /* RNBeaconsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11EDE3D91BA8ADF900106A4D /* Build configuration list for PBXNativeTarget "RNBeaconsTests" */;
+			buildPhases = (
+				11EDE3C91BA8ADF900106A4D /* Sources */,
+				11EDE3CA1BA8ADF900106A4D /* Frameworks */,
+				11EDE3CB1BA8ADF900106A4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11EDE3D01BA8ADF900106A4D /* PBXTargetDependency */,
+			);
+			name = RNBeaconsTests;
+			productName = RNBeaconsTests;
+			productReference = 11EDE3CD1BA8ADF900106A4D /* RNBeaconsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11EDE3BA1BA8ADF900106A4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Blick Labs";
+				TargetAttributes = {
+					11EDE3C11BA8ADF900106A4D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					11EDE3CC1BA8ADF900106A4D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 11EDE3BD1BA8ADF900106A4D /* Build configuration list for PBXProject "RNBeacons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11EDE3B91BA8ADF900106A4D;
+			productRefGroup = 11EDE3C31BA8ADF900106A4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11EDE3C11BA8ADF900106A4D /* RNBeacons */,
+				11EDE3CC1BA8ADF900106A4D /* RNBeaconsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11EDE3CB1BA8ADF900106A4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11EDE3BE1BA8ADF900106A4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11EDE3C81BA8ADF900106A4D /* RNBeacons.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EDE3C91BA8ADF900106A4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11EDE3D01BA8ADF900106A4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11EDE3C11BA8ADF900106A4D /* RNBeacons */;
+			targetProxy = 11EDE3CF1BA8ADF900106A4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11EDE3D41BA8ADF900106A4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		11EDE3D51BA8ADF900106A4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11EDE3D71BA8ADF900106A4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		11EDE3D81BA8ADF900106A4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		11EDE3DA1BA8ADF900106A4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RNBeaconsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11EDE3DB1BA8ADF900106A4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RNBeaconsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11EDE3BD1BA8ADF900106A4D /* Build configuration list for PBXProject "RNBeacons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EDE3D41BA8ADF900106A4D /* Debug */,
+				11EDE3D51BA8ADF900106A4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11EDE3D61BA8ADF900106A4D /* Build configuration list for PBXNativeTarget "RNBeacons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EDE3D71BA8ADF900106A4D /* Debug */,
+				11EDE3D81BA8ADF900106A4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		11EDE3D91BA8ADF900106A4D /* Build configuration list for PBXNativeTarget "RNBeaconsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EDE3DA1BA8ADF900106A4D /* Debug */,
+				11EDE3DB1BA8ADF900106A4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11EDE3BA1BA8ADF900106A4D /* Project object */;
+}
