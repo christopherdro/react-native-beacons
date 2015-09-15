@@ -1,0 +1,13 @@
+{
+  "name": "BeaconsExample",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh"
+  },
+  "dependencies": {
+    "buffer": "^3.4.3",
+    "react-native": "^0.11.0",
+    "react-native-scrollable-tab-view": "^0.2.1-alpha"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "react-native-beacons",
+  "version": "0.0.1",
+  "description": "iBeacon and Eddystone beacon support for React Native",
+  "repository": {
+    "type": "git",
+    "url": "github:christopherdro/react-native-beacons"
+  },
+  "keywords": [
+    "beacons",
+    "ibeacon",
+    "eddystone"
+  ],
+  "author": "Christopher Dro <casheghian@gmail.com> (http://chris.si)",
+  "license": "MIT"
+}

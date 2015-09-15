@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11EDE3C61BA8ADF900106A4D /* RNBeacons.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 11EDE3C51BA8ADF900106A4D /* RNBeacons.h */; };
-		11EDE3C81BA8ADF900106A4D /* RNBeacons.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EDE3C71BA8ADF900106A4D /* RNBeacons.m */; };
 		11EDE3CE1BA8ADF900106A4D /* libRNBeacons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11EDE3C21BA8ADF900106A4D /* libRNBeacons.a */; };
+		11EDE3ED1BA8B07F00106A4D /* ESSBeaconScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EDE3E81BA8B07F00106A4D /* ESSBeaconScanner.m */; };
+		11EDE3EE1BA8B07F00106A4D /* ESSEddystone.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EDE3EA1BA8B07F00106A4D /* ESSEddystone.m */; };
+		11EDE3EF1BA8B07F00106A4D /* ESSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EDE3EC1BA8B07F00106A4D /* ESSTimer.m */; };
+		11EED6661BA8B108004C7335 /* RNiBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EED6631BA8B108004C7335 /* RNiBeacon.m */; };
+		11EED6671BA8B108004C7335 /* RNEddystone.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EED6651BA8B108004C7335 /* RNEddystone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +32,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				11EDE3C61BA8ADF900106A4D /* RNBeacons.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,10 +39,18 @@
 
 /* Begin PBXFileReference section */
 		11EDE3C21BA8ADF900106A4D /* libRNBeacons.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNBeacons.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		11EDE3C51BA8ADF900106A4D /* RNBeacons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNBeacons.h; sourceTree = "<group>"; };
-		11EDE3C71BA8ADF900106A4D /* RNBeacons.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNBeacons.m; sourceTree = "<group>"; };
 		11EDE3CD1BA8ADF900106A4D /* RNBeaconsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNBeaconsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11EDE3D31BA8ADF900106A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11EDE3E71BA8B07F00106A4D /* ESSBeaconScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESSBeaconScanner.h; path = RNBeacons/Eddystone/ESSBeaconScanner.h; sourceTree = SOURCE_ROOT; };
+		11EDE3E81BA8B07F00106A4D /* ESSBeaconScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESSBeaconScanner.m; path = RNBeacons/Eddystone/ESSBeaconScanner.m; sourceTree = SOURCE_ROOT; };
+		11EDE3E91BA8B07F00106A4D /* ESSEddystone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESSEddystone.h; path = RNBeacons/Eddystone/ESSEddystone.h; sourceTree = SOURCE_ROOT; };
+		11EDE3EA1BA8B07F00106A4D /* ESSEddystone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESSEddystone.m; path = RNBeacons/Eddystone/ESSEddystone.m; sourceTree = SOURCE_ROOT; };
+		11EDE3EB1BA8B07F00106A4D /* ESSTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESSTimer.h; path = RNBeacons/Eddystone/ESSTimer.h; sourceTree = SOURCE_ROOT; };
+		11EDE3EC1BA8B07F00106A4D /* ESSTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESSTimer.m; path = RNBeacons/Eddystone/ESSTimer.m; sourceTree = SOURCE_ROOT; };
+		11EED6621BA8B108004C7335 /* RNiBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNiBeacon.h; sourceTree = "<group>"; };
+		11EED6631BA8B108004C7335 /* RNiBeacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNiBeacon.m; sourceTree = "<group>"; };
+		11EED6641BA8B108004C7335 /* RNEddystone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNEddystone.h; sourceTree = "<group>"; };
+		11EED6651BA8B108004C7335 /* RNEddystone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNEddystone.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +78,7 @@
 				11EDE3C41BA8ADF900106A4D /* RNBeacons */,
 				11EDE3D11BA8ADF900106A4D /* RNBeaconsTests */,
 				11EDE3C31BA8ADF900106A4D /* Products */,
+				11EDE3DC1BA8B00400106A4D /* Libraries */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,8 +94,10 @@
 		11EDE3C41BA8ADF900106A4D /* RNBeacons */ = {
 			isa = PBXGroup;
 			children = (
-				11EDE3C51BA8ADF900106A4D /* RNBeacons.h */,
-				11EDE3C71BA8ADF900106A4D /* RNBeacons.m */,
+				11EED6621BA8B108004C7335 /* RNiBeacon.h */,
+				11EED6631BA8B108004C7335 /* RNiBeacon.m */,
+				11EED6641BA8B108004C7335 /* RNEddystone.h */,
+				11EED6651BA8B108004C7335 /* RNEddystone.m */,
 			);
 			path = RNBeacons;
 			sourceTree = "<group>";
@@ -103,6 +116,28 @@
 				11EDE3D31BA8ADF900106A4D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11EDE3DC1BA8B00400106A4D /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				11EDE3DD1BA8B02C00106A4D /* Eddystone */,
+			);
+			name = Libraries;
+			path = RNBeacons.xcodeproj;
+			sourceTree = "<group>";
+		};
+		11EDE3DD1BA8B02C00106A4D /* Eddystone */ = {
+			isa = PBXGroup;
+			children = (
+				11EDE3E71BA8B07F00106A4D /* ESSBeaconScanner.h */,
+				11EDE3E81BA8B07F00106A4D /* ESSBeaconScanner.m */,
+				11EDE3E91BA8B07F00106A4D /* ESSEddystone.h */,
+				11EDE3EA1BA8B07F00106A4D /* ESSEddystone.m */,
+				11EDE3EB1BA8B07F00106A4D /* ESSTimer.h */,
+				11EDE3EC1BA8B07F00106A4D /* ESSTimer.m */,
+			);
+			name = Eddystone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +228,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11EDE3C81BA8ADF900106A4D /* RNBeacons.m in Sources */,
+				11EDE3ED1BA8B07F00106A4D /* ESSBeaconScanner.m in Sources */,
+				11EDE3EF1BA8B07F00106A4D /* ESSTimer.m in Sources */,
+				11EED6661BA8B108004C7335 /* RNiBeacon.m in Sources */,
+				11EED6671BA8B108004C7335 /* RNEddystone.m in Sources */,
+				11EDE3EE1BA8B07F00106A4D /* ESSEddystone.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +335,12 @@
 		11EDE3D71BA8ADF900106A4D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SRCROOT}/../react-native/node_modules/**",
+					"${SRCROOT}/../node_modules/react-native/React/**",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -305,6 +350,12 @@
 		11EDE3D81BA8ADF900106A4D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SRCROOT}/../react-native/node_modules/**",
+					"${SRCROOT}/../node_modules/react-native/React/**",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -362,6 +413,7 @@
 				11EDE3D81BA8ADF900106A4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11EDE3D91BA8ADF900106A4D /* Build configuration list for PBXNativeTarget "RNBeaconsTests" */ = {
 			isa = XCConfigurationList;
@@ -370,6 +422,7 @@
 				11EDE3DB1BA8ADF900106A4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
