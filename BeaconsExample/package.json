@@ -8,6 +8,7 @@
   "dependencies": {
     "buffer": "^3.4.3",
     "react-native": "^0.11.0",
+    "react-native-beacons": "^0.1.0",
     "react-native-scrollable-tab-view": "^0.2.1-alpha"
   }
 }

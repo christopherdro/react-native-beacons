@@ -1,6 +1,6 @@
 {
   "name": "react-native-beacons",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "iBeacon and Eddystone beacon support for React Native",
   "repository": {
     "type": "git",
